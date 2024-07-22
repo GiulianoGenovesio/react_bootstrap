@@ -5,7 +5,7 @@ import Pagina from './components/Pagina';
 function App() {
   return (
     <div className="App">
-      <Pagina />
+      <Pagina/>
       
     </div>
   );
