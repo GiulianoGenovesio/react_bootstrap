@@ -9,6 +9,8 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
 import Carousel from 'react-bootstrap/Carousel';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 
 
@@ -62,6 +64,18 @@ function Pagina() {
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
+
+        <Container>
+      <Row>
+        <Col>Ejemplo 1</Col>
+        
+      </Row>
+      <Row>
+        <Col>Ejemplo 2</Col>
+        <Col>Ejemplo 3</Col>
+        <Col>Ejemplo 4</Col>
+      </Row>
+    </Container>
     </>
     );
 }
