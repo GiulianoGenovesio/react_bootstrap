@@ -46,14 +46,14 @@ function Pagina() {
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-
+            <img style={{ maxHeight: "100vh" }} className="d-block w-100" src={img02} alt="img02" />
                 <Carousel.Caption>
                     <h3>Second slide label</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-
+            <img style={{ maxHeight: "100vh" }} className="d-block w-100" src={img03} alt="img03" />
                 <Carousel.Caption>
                     <h3>Third slide label</h3>
                     <p>
